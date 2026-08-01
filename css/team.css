@@ -1,0 +1,39 @@
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.team-list .team-card {
+  background-color: #ffff;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-section .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.team-section .team-name,
+.team-section .team-role {
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 0;
+}
+
+.team-card-content {
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
