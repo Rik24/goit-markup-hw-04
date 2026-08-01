@@ -4,7 +4,7 @@
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .logo .web {
   color: #4d5ae5;
@@ -17,9 +17,25 @@
   color: #404bbf;
 }
 
+.nav .menu-link:active::after {
+  position: absolute;
+  bottom: 1px;
+
+  content: "";
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+
+  background-color: #404bbf;
+}
+
 .nav .menu-link {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
   font-weight: 500;
-  display: block;
   padding: 24px 0;
 }
 .menu-list {
